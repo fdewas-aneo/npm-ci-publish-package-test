@@ -15,11 +15,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Installing CI package manager
+        run: npm i -g @antfu/ni
+
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm ci
-      - run: npm run build --if-present
-      - run: npm test
-      - run: npm publish
+
+      - run: nci
+
+      - run: nr build --if-present
+
+      - run: nr publish
