@@ -1,7 +1,7 @@
 {
   "name": "npm-ci-publish-package-test",
   "packageManager": "pnpm@9.1.4",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "homepage": "https://github.com/fdewas-aneo/npm-ci-publish-package-test#readme",
   "bugs": {
@@ -16,7 +16,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "publish": "zx scripts/publish-edge.mjs",
+    "ci:publish": "zx scripts/publish-edge.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
