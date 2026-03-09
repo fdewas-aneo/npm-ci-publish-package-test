@@ -1,7 +1,7 @@
 {
   "name": "npm-ci-publish-package-test",
   "packageManager": "pnpm@9.1.4",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "homepage": "https://github.com/fdewas-aneo/npm-ci-publish-package-test#readme",
   "bugs": {
