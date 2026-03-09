@@ -22,9 +22,5 @@
   "devDependencies": {
     "consola": "^3.4.2",
     "zx": "^8.8.5"
-  },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
   }
 }
